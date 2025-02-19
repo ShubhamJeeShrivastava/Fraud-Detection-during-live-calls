@@ -5,7 +5,7 @@ import streamlit as st
 from time import sleep
 
 # Configure the Generative AI API
-genai.configure(api_key="AIzaSyBxM64knRiXqceux5eSHFkfdsEdQGe8GeI")
+genai.configure(api_key="GEMINI_API")//use your api 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Function to record audio
